@@ -1,0 +1,195 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap");
+/* Shared Style */
+* {
+     font-family: "Mulish", sans-serif;
+     margin: 0;
+    }
+
+header,
+ main {
+    width: 1170px;
+    margin: 0 auto;
+
+ }
+
+ .title{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+ }
+
+ .btn-primary{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #ff5400;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+ }
+
+ /* navbar */
+
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 52px;
+    margin-bottom: 24px;
+ }
+
+ .navbar-title{
+    color: #131318;
+    font-size: 32px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ .navbar-title > img{
+    margin-right: 16px;
+ }
+      
+.navbar-travel-text{
+    color: #ff5400;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.navbar-icon{
+    display: none;
+}
+
+.navbar-link > ul{
+    display: flex;
+     align-items: center;
+    margin-top: 40px;
+}
+.navbar-link li {
+    list-style: none;
+    margin-right: 44px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.navbar-link a{
+    text-decoration: none;
+    color: #424247;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.navbar-link-home a{
+    color: #ff5400;
+}
+
+
+/* banner */
+
+.ban{
+    background-image: linear-gradient(
+        180deg,
+         rgba(19, 19, 24, 0.8) 0%,
+         rgba(19, 19, 24, 0) 100%  
+    ),
+    url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 500px;
+        border-radius: 16px;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        text-align: center;
+
+}
+
+.ban-title{
+    padding-top: 106px;
+    color: #fff;
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.ban-description {
+    color: #fff;
+    font-family: Mulish;
+    font-family: 16px;
+    font-weight: 400;
+    width: 676px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.ban-input{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.3);
+    width: 800px;
+    height: 84px;
+    margin: 64px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#where-go,
+#when,
+#select-type{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #fff;
+    border: 0;
+    padding-left: 16px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#where-go,
+#when,
+#select-type:focus {
+    outline: none;
+}
+
+/* tour */
+
+.tour {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+tour-description > span,
+li,
+span {
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 24px;
+}
+
+tour-btn {
+    margin-top: 100px;
+}
+
+tour-btn > button {
+    font-size: 20px;
+}
+
+
+
+/* choose-destination */
+
+choose-destination-container{
+    
+}
+
+
+
