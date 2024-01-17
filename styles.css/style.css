@@ -32,6 +32,9 @@ header,
  }
 
  /* navbar */
+ .drop{
+    display:none;
+ }
 
  nav{
     display: flex;
@@ -93,6 +96,69 @@ header,
     font-weight: 700;
     line-height: normal;
 }
+
+
+/* nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 52px;
+    margin-bottom: 24px;
+}
+
+.navbar-title {
+    color: #131318;
+    font-size: 32px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-title > img {
+    margin-right: 16px;
+}
+
+.navbar-travel-text {
+    color: #ff5400;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.navbar-icon {
+    display: none;
+}
+
+.navbar-link > ul {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.navbar-link li {
+    list-style: none;
+    margin-right: 44px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.navbar-link a {
+    text-decoration: none;
+    color: #424247;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.navbar-link-home a {
+    color: #FF5400;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+} */
 
 
 /* banner */
@@ -171,6 +237,13 @@ header,
     align-items: center;
     margin-bottom: 100px;
 }
+.tour-container{
+    margin-right: 70px;
+
+}
+.tour-title{
+    margin-bottom: 24px;
+}
 
 tour-description > span,
 li,
@@ -180,20 +253,23 @@ span {
     font-weight: 400;
     padding-bottom: 24px;
 }
+.tour-text-container{
+    margin-bottom: 40px;
+}
 
 tour-btn {
     margin-top: 100px;
+    width: 174px;
+    height: 52px;
 }
 
-tour-btn > button {
-    font-size: 20px;
-}
+
 
 
 
 /* choose-destination */
 
-choose-destination-container{
+.choose-destination-container{
     text-align: center;
     margin-bottom: 100px;
 }
@@ -302,6 +378,10 @@ choose-destination-container{
     text-align: center;
     margin-bottom: 100px;
 }
+.why-choose-us-icon{
+    background-position: left;
+    
+}
 .why-choose-us-description{
     color: rgba(19, 19, 24, 0.7);
     font-size: 16px;
@@ -358,6 +438,104 @@ choose-destination-container{
         font-weight: 400;
         width: 486px;
 }
+
+
+/* deals and discount */
+.deals-and-discount-container{
+    text-align: center;
+    margin-bottom: 200px;
+}
+.picture-section{
+    margin-top: 70px;
+    
+}
+.deals-and-discount-background-image{
+    border-radius: 16px;
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.clock-people-map{
+    
+}
+
+.picture-one{
+       
+        background-image: url("../Images/Group\ 39.png");
+        margin-bottom: 20px;
+}
+.picture-two{
+    background-image: url("../Images/Group\ 40.png");
+    margin-bottom: 20px;
+
+}
+.picture-three{
+    background-image: url("../Images/Group\ 39.png");
+}
+.deals-and-discount-satorini{
+    background-color:  rgba(255, 255, 255, 0.80) ;
+    justify-content: right;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 450px;
+    padding: 50px;
+    height: 300px;
+    width: 450px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.deals-and-discount-btn{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+/* Simple Perfect Place To Get Lost */
+.a-place-to-get-lost{
+    display: flex;
+    margin-bottom: 70px;
+}
+.get-lost-text{
+    margin-right: 50px;
+}
+.get-lost-titile{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+.get-lost-description{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+.get-lost-bold-text{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+.get-lost-btn{
+    width: 174px;
+    height: 52px;
+}
+
 
 /* Newsletter section */
 
@@ -439,6 +617,36 @@ choose-destination-container{
      font-weight: 800;
      margin-top: 0;
 }
+/* about-us */
+.about-us-container{
+        text-align: center;
+        margin-bottom: 100px;
+        
+
+}
+.about-us-background-images{
+        border-radius: 16px;
+        height: 500px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+}
+.about-us-background-images > h1 {
+    padding-top: 132px;
+    color: purple;
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.about-us{
+    margin-top: 70px;
+    background-image: url("../Images/about-us.jpg");
+}
+.about-us-display-section{
+    display: flex;
+}
 
 /* footer section */
 footer {
@@ -504,9 +712,11 @@ footer > hr {
      font-size: 20px;
     margin-bottom: 16px;
      text-align: center;
-    }
+}
 /* navbar */
-
+.drop{
+    display: flex;
+}
 .navbar-link {
      display: none;
     }
@@ -556,8 +766,32 @@ footer > hr {
    width: 90%;
 }
 
+/* tour-section */
+.tour {
+     flex-direction: column;
+     align-items: start;
+     gap: 24px;
+     margin-bottom: 24px;
+}
+.tour-container {
 
-
+ }
+.popular-tour > img {
+ width: 100%;
+ height: 342px;
+ }
+.popular-tour-title {
+     text-align: left;
+ }
+ .tour-description > span,
+  li,
+  span {
+  font-size: 14px;
+  text-align: justify;
+  }
+  .tour > img{
+    width: 100%;
+  }
 
 
 
@@ -613,6 +847,19 @@ footer > hr {
     width: 100%;
      height: 120px;
      font-size: 14px;
+}
+
+/* a simple place to get lost */
+.a-place-to-get-lost{
+    flex-direction: column;
+    
+}
+.get-lost-text{
+    text-align: center;
+     margin-bottom: 24px;
+}
+.get-lost-image{
+    width: 100%;
 }
 
 /* newsletter section */
